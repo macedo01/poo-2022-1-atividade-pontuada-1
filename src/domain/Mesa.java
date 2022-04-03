@@ -2,7 +2,7 @@ package domain;
 
 //As mesas são numeradas, classificadas pela localização (interna ou externa) e é necessário saber a quantidade de cadeiras das mesmas
 
-public class mesa {
+public class Mesa {
     private int numero;
     private String localizacao;
     private int quantidadeCadeira;
@@ -31,12 +31,12 @@ public class mesa {
         this.quantidadeCadeira = quantidadeCadeira;
     }
 
-    public mesa(int numero, int quantidadeCadeira) {
+    public Mesa(int numero, int quantidadeCadeira) {
         this.numero = numero;
         this.quantidadeCadeira = quantidadeCadeira;
     }
 
-    public mesa(String localizacao) {
+    public Mesa(String localizacao) {
         this.localizacao = localizacao;
     }
 

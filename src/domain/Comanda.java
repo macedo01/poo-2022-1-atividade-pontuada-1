@@ -9,10 +9,13 @@ package domain;
 
 import java.util.ArrayList;
 
-public class comanda {
+public class Comanda {
 
     private int numero;
     private String situacao;
-    ArrayList<item> itensPedidos = new ArrayList<item>();
-    
+    private Mesa mesa;
+    // quantide de itens pedidos
+    ArrayList<Item> itensPedidos = new ArrayList<Item>();
+
+
 }

@@ -2,7 +2,7 @@ package domain;
 
 //sobre os itens disponíveis é necessário saber o código (alfanuḿerico), nome e valor.
 
-public class item {
+public class Item {
     private String nome;
     private int valor;
     private String codigo;
@@ -32,12 +32,12 @@ public class item {
         this.codigo = codigo;
     }
 
-    public item(String nome, String codigo) {
+    public Item(String nome, String codigo) {
         this.nome = nome;
         this.codigo = codigo;
     }
 
-    public item(int valor) {
+    public Item(int valor) {
         this.valor = valor;
     }
 
